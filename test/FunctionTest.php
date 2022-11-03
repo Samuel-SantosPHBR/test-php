@@ -28,6 +28,7 @@ class FunctionTest extends TestCase {
         $this->assertEquals($funcoes->NumerosNaoRepetidos([7,9,4,4,2,7,7,9]),[2]);
     }
 
+    
     public function testFuncaoSequenciaCrescente()
     {
         $funcoes = new \SRC\Funcoes();
