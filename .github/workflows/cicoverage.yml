@@ -15,7 +15,7 @@ jobs:
           version: 1
 
       - name: PHPUnit Tests
-        uses: php-actions/phpunit@v3
+        uses: php-actions/phpunit@v9
         env:
           TEST_NAME: Scarlett
         with:
