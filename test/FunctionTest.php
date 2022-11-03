@@ -8,8 +8,8 @@ class FunctionTest extends TestCase {
     {
         $funcoes = new \SRC\Funcoes();
 
-        $this->assertEquals($funcoes->SeculoAno(1905),0);
-        $this->assertEquals($funcoes->SeculoAno(1700),0);
+        $this->assertEquals($funcoes->SeculoAno(1905),20);
+        $this->assertEquals($funcoes->SeculoAno(1700),17);
     }
 
     // public function testFuncaoPrimos()
