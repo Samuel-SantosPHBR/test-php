@@ -20,41 +20,51 @@ class Funcoes
 
     /*
 
-    Crie uma função que receba como parâmetro 2 números  inteiros (inicial e final)  e retorne um array com os números primos estão compreendidos entre o valor inicial e o final, desprezando o número inicial e final recebidos como parâmetro.
+    Desenvolva uma função que receba como parâmetro um número inteiro e retorne o numero primo imediatamente anterior ao número recebido
 
     Exemplo para teste:
 
-    Numero Inicial = 10
-    Número Final = 29
-    Resposta: Array [11,13,17,19,23]
+    Numero = 10 resposta = 7
+    Número = 29 resposta = 23
 
      * */
-    public function Primos($inicial,$final) {
+    public function PrimoAnterior($numero) {
         return  0;
     }
 
     /*
 
-    Escreva uma função que receba um arrei de numeros entre 1 e 10. Depois informe qual ou quais número(s) não se repetiram.
+    Desenvolva uma função que receba como parâmetro um array multidimensional de números inteiros e retorne como resposta o segundo maior número.
 
-    Exemplo
+    Exemplo para teste:
 
-    Array sorteado = [2,5,8,2,8,5,3,9,6,3,4,6,3,1,2,1,2,3,7,1]
-    Os números que não se repetem são o 4 e 7.
-    Resposta: Array [4,7]
+	Array multidimensional = array (
+	array(25,22,18),
+	array(10,15,13),
+	array(24,5,2),
+	array(80,17,15)
+	);
+
+	resposta = 25
+
+    OBS.: Não entendi a questão, pois pede o segundo maior número,
+    mas dentre todos os números da array o segundo maior seria 5 e não 25.
+    Desta maneira vou levar em consideração que deseja diferenciar somente
+    da primeira array, já que entre (25, 22, 18) realmente o segundo maior valor
+    é 25 e no final devo restornar um número inteiro e não uma array de resultados.
 
      * */
-    public function NumerosNaoRepetidos($array) {
+    public function SegundoMaior($array) {
         return 0;
     }
 
     /*
-     Receba como parametro um array de números inteiros e responda TRUE or FALSE se é possível obter uma sequencia crescente removendo apenas um elemento do array.
+   Desenvolva uma função que receba como parâmetro um array de números inteiros e responda com TRUE or FALSE se é possível obter uma sequencia crescente removendo apenas um elemento do array.
 
-    Exemplos para teste
+	Exemplos para teste
 
-    Obs.:-  É Importante  realizar todos os testes abaixo para garantir o funcionamento correto.
-             -  Sequencias com apenas um elemento são consideradas como TRUE
+	Obs.:-  É Importante  realizar todos os testes abaixo para garantir o funcionamento correto.
+         -  Sequencias com apenas um elemento são consideradas crescentes
 
     [1, 3, 2, 1]  false
     [1, 3, 2]  true
