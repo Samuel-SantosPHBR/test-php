@@ -1,7 +1,4 @@
 <?php
-
-class Funcoes
-{
     /*
 
     Desenvolva uma função que receba como parametro o ano e retorne o século ao qual este ano faz parte. O primeiro século começa no ano 1 e termina no ano 100, o segundo século começa no ano 101 e termina no 200.
@@ -12,7 +9,7 @@ class Funcoes
     Ano 1700 = século 17
 
      * */
-    public function SeculoAno($ano) {
+    function SeculoAno($ano) {
         return 0;
     }
 
@@ -27,7 +24,7 @@ class Funcoes
     Resposta: Array [11,13,17,19,23]
 
      * */
-    public function Primos($inicial,$final) {
+    function Primos($inicial,$final) {
         return  0;
     }
 
@@ -42,7 +39,7 @@ class Funcoes
     Resposta: Array [4,7]
 
      * */
-    public function NumerosNaoRepetidos($array) {
+    function NumerosNaoRepetidos($array) {
         return 0;
     }
 
@@ -75,7 +72,6 @@ class Funcoes
     [3, 5, 67, 98, 3] true
 
      * */
-    public function SequenciaCrescente($array) {
+    function SequenciaCrescente($array) {
         return 0;
     }
-}
