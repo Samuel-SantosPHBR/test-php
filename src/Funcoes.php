@@ -28,7 +28,7 @@ class Funcoes
     Número = 29 resposta = 23
 
      * */
-    public function PrimoAnterior(int $numero): int {
+    public function PrimoAnterior(int $numero) {
         if ($numero == 1) return $numero;
 
         $numero_primo = $numero - 1;
