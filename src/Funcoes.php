@@ -13,7 +13,7 @@ class Funcoes
 	Ano 1700 = século 17
 
      * */
-    public function SeculoAno(int $ano): int {
+    public function SeculoAno(int $ano) {
         $result = ceil($ano / 100);
         return $result;
     }
@@ -82,7 +82,7 @@ class Funcoes
     é 25 e no final devo restornar um número inteiro e não uma array de resultados.
 
      * */
-    public function SegundoMaior(array $arr): int {
+    public function SegundoMaior(array $arr) {
         $array = $arr;
 
         $primeiro_maior = MAX($array);
@@ -123,7 +123,7 @@ class Funcoes
 
      * */
     
-	public function SequenciaCrescente(array $arr): bool {
+	public function SequenciaCrescente(array $arr) {
         $array = $arr;
         $ar = [];
         $sequencia_crescente = false;
