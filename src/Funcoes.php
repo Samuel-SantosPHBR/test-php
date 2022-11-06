@@ -1,7 +1,5 @@
 <?php
 
-namespace SRC;
-
 class Funcoes
 {
     /*
